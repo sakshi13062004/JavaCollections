@@ -1,16 +1,18 @@
 package JavaCollections.LinkedLists;
 
 import java.util.LinkedList;
-import java.util.List;
 
 public class LLoperations {
+    public static void main(String[] args) {
+        
+    
     LinkedList<String> list= new LinkedList<>();
     list.add("sakshi");
     list.add("akash");
-    list(1,"shreya");
+    list.add(1,"shreya");
     System.out.println("Linked List after adding element at index 1: " + list);
     list.get(1);
-    list.set(2."god");
+    list.set(2,"god");
     System.out.println("Linked List after updating element at index 2: " + list);
     list.remove(0);
     System.out.println("Linked List after removing element at index 0: " + list);
@@ -28,5 +30,5 @@ public class LLoperations {
     list.clear();
     
 
-
+    }
 }
